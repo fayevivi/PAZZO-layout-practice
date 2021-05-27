@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAZZO</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/css/all.css">
+    <style>
+        .body {
+            margin: 0px auto;
+            padding: 0px;
+            max-width: 2000px;
+            text-align: center;
+        }
+
+        .topbar {
+            display: flex;
+            margin: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logowrap {
+            width: 150px;
+            height: 25px;
+        }
+
+        .logowrap img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .menubar ul {
+            margin-bottom: 0px;
+        }
+
+        .menubar ul li {
+            margin: 10px 20px;
+        }
+
+        .search {
+            border: 1px solid grey;
+            padding: 2px 5px;
+        }
+
+        .search input {
+            border: none;
+            outline: none;
+        }
+
+        .iconmenu {
+            margin-bottom: 0px;
+        }
+
+        .iconmenu li {
+            margin: 10px;
+        }
+
+        /* .row:nth-child(1) {
+            padding-right: 2px;
+        }
+
+        .row:nth-child(2) {
+            padding-left: 1px;
+        } */
+        /* why沒選到 */
+
+        .row img {
+            width: 100%;
+        }
+
+        .classicBlue,
+        .piccarouselP,
+        .top10 {
+            margin: 115px auto;
+        }
+
+        .footer {
+            /* margin: 115px auto; */
+            padding: 115px auto;
+            text-align: center;
+            background-color: rgb(239, 224, 201);
+        }
+
+        .footerflexwrap {
+            gap: 70px;
+        }
+
+        .title {
+            margin: 50px auto 0px;
+            padding: 115px auto;
+            line-height: 115px;
+        }
+
+        .footer ul {
+            width: 100%;
+        }
+
+        .footer ul li {
+            margin: 10px 20px;
+        }
+
+        .footer ul li img {
+            width: 20px;
+        }
+
+        .footercontact h6,
+        p {
+            line-height: normal;
+        }
+
+        .telephone {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topbar">
+        <span class="logowrap">
+            <img src="./imgs/logo2020.svg" alt="">
+        </span>
+        <div class="menubar">
+            <ul class="d-flex list-unstyled">
+                <li>NEW</li>
+                <li>RESTOCK</li>
+                <li>PRE-ORDER</li>
+                <li>COVER STORY</li>
+                <li>SALE</li>
+            </ul>
+        </div>
+        <div class=" iconbar">
+            <ul class="d-flex list-unstyled iconmenu">
+                <li>
+                    <div class="search">
+                        <span><i class="fas fa-search"></i></span>
+                        <input type="text" placeholder="search">
+                    </div>
+                </li>
+                <li><i class="far fa-user"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid d-flex flex-column align-items-center">
+        <div class="row">
+            <div class="col-12 col-md-6 bannerImgWrap"><img src="./imgs/P11.gif" alt=""></div>
+            <div class="col-12 col-md-6 bannerImgWrap"><img src="./imgs/P12.gif" alt=""></div>
+        </div>
+        <div class="classicBlue"><img src="./imgs/P21.jpg" alt=""></div>
+        <div class="classicBlueP"><img src="./imgs/P22.jpg" alt=""></div>
+
+        <div class="piccarousel">
+            <img src="./imgs/P31.jpg" alt="">
+            <!-- <img src="./imgs/P32.jpg" alt="">
+            <img src="./imgs/P33.jpg" alt="">
+            <img src="./imgs/P34.jpg" alt=""> -->
+        </div>
+        <div class="piccarouselP">
+            <img src="./imgs/P40.jpg" alt="">
+        </div>
+
+        <div class="row">
+            <div class="col-12 ">
+                <img src="./imgs/p41.gif" alt="">
+            </div>
+        </div>
+
+        <div class="top10">
+            <img src="./imgs/P51.jpg" alt="">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6"><img src="./imgs/m61.jpg" alt="">
+            </div>
+            <div class="col-6"><img src="./imgs/m62.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h6 class="title">Little Good Things of Everyday Life .</h6>
+        <ul class="list-unstyled d-flex justify-content-center">
+            <li>關於PAZZO+</li>
+            <li>退換貨服務+</li>
+            <li>重要公告+</li>
+            <li>VIP募集+</li>
+            <li>小雜誌+</li>
+        </ul>
+        <div class="footerflexwrap d-flex justify-content-center">
+            <div class="footercontact">
+                <h6 class="telephone">
+                    Calling 0800-628-628
+                </h6>
+                <p class="email">service@pazzo.com.tw</p>
+                <p class="openhours">MON-FRI 09:00-12:00/13:00-18:00</p>
+            </div>
+            <div class="socialmediabar">
+                <ul class="d-flex list-unstyled">
+                    <li><img src="./imgs/fb2020.svg" alt=""></li>
+                    <li><img src="./imgs/ig2020.svg" alt=""></li>
+                    <li><img src="./imgs/line2020.svg" alt=""></li>
+                    <li><img src="./imgs/yt2020.svg" alt=""></li>
+                </ul>
+                <p>© PAZZO All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
